@@ -7,7 +7,7 @@ Feature: DELETE Call feature
     * def user = call read('classpath:common/create.user.feature') { NAME: '#(CREATE_USER_NAME)', JOB: '#(CREATE_USER_NAME)' }
 
     # Test URL does not add our user, unable to get the newly created user.
-    # Otherwise we could extract details like mentioned below and use them in GET call
+    # Otherwise we could extract details    like mentioned below and use them in GET call
     #    * def userId = user.response.id
     * def userId = 2
 
